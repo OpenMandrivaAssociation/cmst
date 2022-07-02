@@ -1,0 +1,12 @@
+[Unit]
+Description=GUI to control the connman daemon
+
+[Service]
+Type=dbus
+User=root
+EnvironmentFile=/etc/dbus-1/system.d/org.cmst.roothelper.conf
+BusName=org.cmst.roothelper
+ExecStart=/usr/libexec/cmst/cmstroothelper --no-daemon
+
+[Install]
+WantedBy=multi-user.target
