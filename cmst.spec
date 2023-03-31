@@ -1,7 +1,7 @@
 Summary:	A Qt based GUI front end for the connman connection manager with systemtray icon
 Name:		cmst
 Version:	2022.05.01
-Release:	1
+Release:	2
 License:	MIT
 URL:		https://github.com/andrew-bibb/cmst
 Source0:	https://github.com/andrew-bibb/cmst/releases/download/%{name}-%{version}/%{name}-%{version}.tar.xz
